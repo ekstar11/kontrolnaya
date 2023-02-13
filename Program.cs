@@ -24,5 +24,6 @@ for (int i=0; i<N; i++)
  if(array[i].Length <= 3) count+=1;
 
 }
+string?[] arrayNew = FillArray(count);
 
 
