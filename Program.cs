@@ -25,6 +25,21 @@ for (int i=0; i<N; i++)
 
 }
 string?[] arrayNew = FillArray(count);
+string?[] FillArray(int a)
+{string?[] res = new string?[a];
+ Console.WriteLine(count);
+int j=0; 
+
+for (int i=0; i<N; i++)
+{
+   
+ if(array[i].Length <= 3)  
+ {res[j]=array[i];
+ Console.WriteLine(res[j]);
+ j+=1;}
+}
+return res;
+}
 
 
 
