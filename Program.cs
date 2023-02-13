@@ -40,6 +40,7 @@ for (int i=0; i<N; i++)
 }
 return res;
 }
-
+//вывод в консоль получившегося массива с длиной строк меньше 3 символов
+Console.WriteLine($"[ {String.Join(" ,", arrayNew)} ]");
 
 
